@@ -1,6 +1,6 @@
 # SPEC 01 — RAG sobre políticas internas en PDF
 
-> **Status:** Aprobado
+> **Status:** Implementado
 > **Depends on:** ninguno
 > **Date:** 2026-08-25
 > **Objective:** Construir un servicio que ingiera los PDF de `materiales/politicas/`, los indexe por sección y exponga un endpoint que responda preguntas citando el documento y la sección de origen, o declare que no hay evidencia.
@@ -108,13 +108,13 @@ Convenciones:
 
 ## Acceptance criteria
 
-- [ ] `python -m rag_politicas.ingest` corre sin errores y genera `rag_politicas/data/index.faiss` y `rag_politicas/data/chunks.json`.
-- [ ] `chunks.json` contiene al menos un chunk por cada una de las 5 políticas, cada uno con `documento`, `codigo_politica`, `seccion`, `titulo_seccion` y `texto` no vacíos.
-- [ ] Levantar `uvicorn rag_politicas.main:app --port 8090` expone `POST /consulta` y `GET /docs`.
-- [ ] Una pregunta cuya respuesta está en el corpus (ej. "¿Con cuántos días de anticipación debo pedir vacaciones?") devuelve una `respuesta` que menciona el valor correcto (15 días) y `fuentes` con `documento: POL-GTH-01_Vacaciones.pdf` y `seccion: 3.1`.
-- [ ] Una pregunta fuera del corpus (tema no cubierto por ninguna de las 5 políticas) devuelve `fuentes: []` y una `respuesta` que indica explícitamente que no hay evidencia, sin inventar contenido.
-- [ ] Los 5-8 casos de `tests/casos_verificacion.py` pasan: cada uno con evidencia cita el documento y sección esperados; el caso sin evidencia no cita ninguna fuente.
-- [ ] `.env` no está versionado (aparece en `.gitignore`) y `.env.example` documenta `OPENAI_API_KEY` vacía.
+- [x] `python -m rag_politicas.ingest` corre sin errores y genera `rag_politicas/data/index.faiss` y `rag_politicas/data/chunks.json`.
+- [x] `chunks.json` contiene al menos un chunk por cada una de las 5 políticas, cada uno con `documento`, `codigo_politica`, `seccion`, `titulo_seccion` y `texto` no vacíos.
+- [x] Levantar `uvicorn rag_politicas.main:app --port 8090` expone `POST /consulta` y `GET /docs`.
+- [x] Una pregunta cuya respuesta está en el corpus (ej. "¿Con cuántos días de anticipación debo pedir vacaciones?") devuelve una `respuesta` que menciona el valor correcto (15 días) y `fuentes` con `documento: POL-GTH-01_Vacaciones.pdf` y `seccion: 3.1`.
+- [x] Una pregunta fuera del corpus (tema no cubierto por ninguna de las 5 políticas) devuelve `fuentes: []` y una `respuesta` que indica explícitamente que no hay evidencia, sin inventar contenido.
+- [x] Los 5-8 casos de `tests/casos_verificacion.py` pasan: cada uno con evidencia cita el documento y sección esperados; el caso sin evidencia no cita ninguna fuente.
+- [x] `.env` no está versionado (aparece en `.gitignore`) y `.env.example` documenta `OPENAI_API_KEY` vacía.
 
 ---
 
