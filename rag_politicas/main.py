@@ -62,3 +62,8 @@ def consultar(request: ConsultaRequest) -> ConsultaResponse:
         for c in chunks
     ]
     return ConsultaResponse(respuesta=respuesta, fuentes=fuentes)
+
+
+@app.get("/metricas")
+def obtener_metricas() -> dict:
+    return metrics.resumen()
