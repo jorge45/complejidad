@@ -1,0 +1,642 @@
+[
+  {
+    "id": "POL-ADM-04#1",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "1",
+    "titulo_seccion": "Objeto",
+    "texto": "1. Objeto\nRegular el reconocimiento, la autorización y la legalización de los gastos en que incurren los colaboradores en\ncomisiones de servicio fuera de su sede habitual."
+  },
+  {
+    "id": "POL-ADM-04#2",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "2",
+    "titulo_seccion": "Autorización",
+    "texto": "2. Autorización"
+  },
+  {
+    "id": "POL-ADM-04#2.1",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "2.1",
+    "titulo_seccion": "Toda comisión requiere autorización previa del jefe inmediato registrada en el sistema, con al menos tres",
+    "texto": "2.1. Toda comisión requiere autorización previa del jefe inmediato registrada en el sistema, con al menos tres\n(3) días hábiles de anticipación."
+  },
+  {
+    "id": "POL-ADM-04#2.2",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "2.2",
+    "titulo_seccion": "Las comisiones no autorizadas previamente no generan derecho a reembolso, salvo emergencia operativa",
+    "texto": "2.2. Las comisiones no autorizadas previamente no generan derecho a reembolso, salvo emergencia operativa\nvalidada por la Dirección del área."
+  },
+  {
+    "id": "POL-ADM-04#3",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "3",
+    "titulo_seccion": "Montos máximos diarios",
+    "texto": "3. Montos máximos diarios\nConcepto Sede principal y ciudades capitales Otros municipios\nAlimentación $95.000 $70.000\nHospedaje $260.000 $180.000\nTransporte urbano $45.000 $35.000\nGastos varios $25.000 $20.000\nLos montos se actualizan anualmente en el mes de enero mediante circular de la Dirección Administrativa. Los\nexcesos requieren autorización previa y justificación escrita."
+  },
+  {
+    "id": "POL-ADM-04#4",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "4",
+    "titulo_seccion": "Anticipos",
+    "texto": "4. Anticipos"
+  },
+  {
+    "id": "POL-ADM-04#4.1",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "4.1",
+    "titulo_seccion": "El anticipo puede solicitarse hasta por el ochenta por ciento (80%) del valor estimado de la comisión.",
+    "texto": "4.1. El anticipo puede solicitarse hasta por el ochenta por ciento (80%) del valor estimado de la comisión."
+  },
+  {
+    "id": "POL-ADM-04#4.2",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "4.2",
+    "titulo_seccion": "La solicitud debe radicarse con cinco (5) días hábiles de anticipación al inicio del viaje.",
+    "texto": "4.2. La solicitud debe radicarse con cinco (5) días hábiles de anticipación al inicio del viaje."
+  },
+  {
+    "id": "POL-ADM-04#4.3",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "4.3",
+    "titulo_seccion": "No se otorga un nuevo anticipo a quien tenga un anticipo pendiente de legalización.",
+    "texto": "4.3. No se otorga un nuevo anticipo a quien tenga un anticipo pendiente de legalización."
+  },
+  {
+    "id": "POL-ADM-04#5",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "5",
+    "titulo_seccion": "Legalización",
+    "texto": "5. Legalización"
+  },
+  {
+    "id": "POL-ADM-04#5.1",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "5.1",
+    "titulo_seccion": "El plazo de legalización es de cinco (5) días hábiles contados desde el regreso a la sede habitual.",
+    "texto": "5.1. El plazo de legalización es de cinco (5) días hábiles contados desde el regreso a la sede habitual."
+  },
+  {
+    "id": "POL-ADM-04#5.2",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "5.2",
+    "titulo_seccion": "La legalización se realiza en el sistema adjuntando las facturas o documentos equivalentes que cumplan",
+    "texto": "5.2. La legalización se realiza en el sistema adjuntando las facturas o documentos equivalentes que cumplan\nrequisitos tributarios."
+  },
+  {
+    "id": "POL-ADM-04#5.3",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "5.3",
+    "titulo_seccion": "Los gastos sin soporte válido no se reconocen y deben reintegrarse.",
+    "texto": "5.3. Los gastos sin soporte válido no se reconocen y deben reintegrarse."
+  },
+  {
+    "id": "POL-ADM-04#5.4",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "5.4",
+    "titulo_seccion": "El incumplimiento del plazo faculta a la compañía para descontar el valor del anticipo de la siguiente",
+    "texto": "5.4. El incumplimiento del plazo faculta a la compañía para descontar el valor del anticipo de la siguiente\nnómina, previa comunicación al colaborador."
+  },
+  {
+    "id": "POL-ADM-04#6",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "6",
+    "titulo_seccion": "Gastos no reconocidos",
+    "texto": "6. Gastos no reconocidos\n Bebidas alcohólicas, multas, sanciones e intereses de mora.\n Gastos de acompañantes que no tengan comisión autorizada.\n Servicios de entretenimiento y consumos de minibar.\n Ampliaciones de estadía por motivos personales."
+  },
+  {
+    "id": "POL-ADM-04#7",
+    "documento": "POL-ADM-04_Viaticos.pdf",
+    "codigo_politica": "POL-ADM-04",
+    "seccion": "7",
+    "titulo_seccion": "Reembolso",
+    "texto": "7. Reembolso\nEl reembolso de gastos legalizados y aprobados se paga en el siguiente ciclo de pago a proveedores, que corre los\ndías quince (15) y último de cada mes.\nDocumento sintético elaborado exclusivamente como material de la Prueba Técnica de Nivelación de perfiles IA. No constituye\npolítica vigente de la compañía."
+  },
+  {
+    "id": "POL-GTH-01#1",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "1",
+    "titulo_seccion": "Objeto y alcance",
+    "texto": "1. Objeto y alcance\nRegular la solicitud, aprobación, disfrute y compensación de las vacaciones de los colaboradores vinculados\nmediante contrato laboral. Aplica a todas las sedes y a todos los niveles de la organización."
+  },
+  {
+    "id": "POL-GTH-01#2",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "2",
+    "titulo_seccion": "Causación",
+    "texto": "2. Causación\nCada colaborador causa quince (15) días hábiles de vacaciones por cada año completo de servicio. La causación\nes proporcional al tiempo laborado cuando el periodo es inferior a un año."
+  },
+  {
+    "id": "POL-GTH-01#3",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "3",
+    "titulo_seccion": "Solicitud y aprobación",
+    "texto": "3. Solicitud y aprobación"
+  },
+  {
+    "id": "POL-GTH-01#3.1",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "3.1",
+    "titulo_seccion": "La solicitud debe radicarse con una anticipación mínima de quince (15) días calendario a la fecha de inicio",
+    "texto": "3.1. La solicitud debe radicarse con una anticipación mínima de quince (15) días calendario a la fecha de inicio\ndel disfrute."
+  },
+  {
+    "id": "POL-GTH-01#3.2",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "3.2",
+    "titulo_seccion": "La solicitud se registra en el sistema Centrica, módulo de Talento Humano. No se tramitan solicitudes por",
+    "texto": "3.2. La solicitud se registra en el sistema Centrica, módulo de Talento Humano. No se tramitan solicitudes por\ncorreo ni verbales."
+  },
+  {
+    "id": "POL-GTH-01#3.3",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "3.3",
+    "titulo_seccion": "La aprobación corresponde al jefe inmediato y queda sujeta a la disponibilidad operativa del área.",
+    "texto": "3.3. La aprobación corresponde al jefe inmediato y queda sujeta a la disponibilidad operativa del área."
+  },
+  {
+    "id": "POL-GTH-01#3.4",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "3.4",
+    "titulo_seccion": "Talento Humano dispone de tres (3) días hábiles para dar respuesta una vez el jefe inmediato aprueba.",
+    "texto": "3.4. Talento Humano dispone de tres (3) días hábiles para dar respuesta una vez el jefe inmediato aprueba."
+  },
+  {
+    "id": "POL-GTH-01#3.5",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "3.5",
+    "titulo_seccion": "Si la solicitud es negada, el jefe inmediato debe registrar la justificación y proponer una fecha alterna dentro",
+    "texto": "3.5. Si la solicitud es negada, el jefe inmediato debe registrar la justificación y proponer una fecha alterna dentro\nde los dos meses siguientes."
+  },
+  {
+    "id": "POL-GTH-01#4",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "4",
+    "titulo_seccion": "Fraccionamiento y acumulación",
+    "texto": "4. Fraccionamiento y acumulación"
+  },
+  {
+    "id": "POL-GTH-01#4.1",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "4.1",
+    "titulo_seccion": "Las vacaciones pueden fraccionarse hasta en dos (2) periodos, siempre que uno de ellos sea de mínimo",
+    "texto": "4.1. Las vacaciones pueden fraccionarse hasta en dos (2) periodos, siempre que uno de ellos sea de mínimo\nseis (6) días hábiles continuos."
+  },
+  {
+    "id": "POL-GTH-01#4.2",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "4.2",
+    "titulo_seccion": "Se permite acumular hasta dos (2) periodos de vacaciones, previo acuerdo escrito entre el colaborador y la",
+    "texto": "4.2. Se permite acumular hasta dos (2) periodos de vacaciones, previo acuerdo escrito entre el colaborador y la\ncompañía."
+  },
+  {
+    "id": "POL-GTH-01#4.3",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "4.3",
+    "titulo_seccion": "La acumulación superior a dos periodos requiere autorización expresa de la Dirección de Talento Humano.",
+    "texto": "4.3. La acumulación superior a dos periodos requiere autorización expresa de la Dirección de Talento Humano."
+  },
+  {
+    "id": "POL-GTH-01#5",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "5",
+    "titulo_seccion": "Compensación en dinero",
+    "texto": "5. Compensación en dinero\nSolo puede compensarse en dinero hasta la mitad del periodo causado, a solicitud escrita del colaborador y con\naprobación de la Dirección de Talento Humano. No procede la compensación total del periodo."
+  },
+  {
+    "id": "POL-GTH-01#6",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "6",
+    "titulo_seccion": "Interrupción",
+    "texto": "6. Interrupción\nLas vacaciones pueden interrumpirse por necesidad del servicio debidamente justificada por la Dirección del área o\npor incapacidad médica certificada. Los días no disfrutados se reprograman de común acuerdo dentro de los tres\n(3) meses siguientes."
+  },
+  {
+    "id": "POL-GTH-01#7",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "7",
+    "titulo_seccion": "Periodos de restricción",
+    "texto": "7. Periodos de restricción\nÁrea Periodo restringido Motivo\nContabilidad 1 al 20 de enero y 1 al 15 de julio Cierres contables semestrales\nComercial 15 de noviembre al 31 de diciembre Temporada alta de ventas\nOperaciones Última semana de cada mes Cierre de inventario\nAplicaciones Ventanas de despliegue mayor Continuidad del servicio"
+  },
+  {
+    "id": "POL-GTH-01#8",
+    "documento": "POL-GTH-01_Vacaciones.pdf",
+    "codigo_politica": "POL-GTH-01",
+    "seccion": "8",
+    "titulo_seccion": "Preguntas frecuentes",
+    "texto": "8. Preguntas frecuentes\n ¿Puedo solicitar vacaciones con menos de quince días de anticipación? Solo por excepción autorizada por\nescrito por la Dirección de Talento Humano.\n ¿Los días de vacaciones son hábiles o calendario? Hábiles. No se cuentan sábados, domingos ni festivos.\n ¿Puedo ceder mis vacaciones a otro colaborador? No. La causación es personal e intransferible.\nDocumento sintético elaborado exclusivamente como material de la Prueba Técnica de Nivelación de perfiles IA. No constituye\npolítica vigente de la compañía."
+  },
+  {
+    "id": "POL-TIC-02#1",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "1",
+    "titulo_seccion": "Objeto",
+    "texto": "1. Objeto\nEstablecer las condiciones de asignación, uso, custodia, reposición y devolución de los equipos y activos\ntecnológicos entregados a los colaboradores."
+  },
+  {
+    "id": "POL-TIC-02#2",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "2",
+    "titulo_seccion": "Asignación",
+    "texto": "2. Asignación"
+  },
+  {
+    "id": "POL-TIC-02#2.1",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "2.1",
+    "titulo_seccion": "Todo activo se entrega mediante acta de asignación firmada por el colaborador y por la Coordinación de",
+    "texto": "2.1. Todo activo se entrega mediante acta de asignación firmada por el colaborador y por la Coordinación de\nInfraestructura."
+  },
+  {
+    "id": "POL-TIC-02#2.2",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "2.2",
+    "titulo_seccion": "El colaborador es responsable de la custodia del activo desde la firma del acta hasta su devolución formal.",
+    "texto": "2.2. El colaborador es responsable de la custodia del activo desde la firma del acta hasta su devolución formal."
+  },
+  {
+    "id": "POL-TIC-02#2.3",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "2.3",
+    "titulo_seccion": "La solicitud de un activo adicional requiere justificación del jefe inmediato y disponibilidad presupuestal.",
+    "texto": "2.3. La solicitud de un activo adicional requiere justificación del jefe inmediato y disponibilidad presupuestal."
+  },
+  {
+    "id": "POL-TIC-02#3",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "3",
+    "titulo_seccion": "Tiempos de entrega",
+    "texto": "3. Tiempos de entrega\nTipo de activo Tiempo máximo de entrega Aprobación requerida\nPeriférico en stock (teclado, mouse, diadema) 2 días hábiles Jefe inmediato\nMonitor adicional 5 días hábiles Jefe inmediato\nPortátil o equipo de escritorio 10 días hábiles Dirección de Tecnología\nEquipo especializado o de alto costo 20 días hábiles Dirección de Tecnología y Compras"
+  },
+  {
+    "id": "POL-TIC-02#4",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "4",
+    "titulo_seccion": "Uso permitido",
+    "texto": "4. Uso permitido"
+  },
+  {
+    "id": "POL-TIC-02#4.1",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "4.1",
+    "titulo_seccion": "Los activos son de uso exclusivamente laboral. Se permite un uso personal incidental que no afecte el",
+    "texto": "4.1. Los activos son de uso exclusivamente laboral. Se permite un uso personal incidental que no afecte el\ndesempeño ni comprometa la seguridad."
+  },
+  {
+    "id": "POL-TIC-02#4.2",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "4.2",
+    "titulo_seccion": "Está prohibido instalar software sin autorización de la Coordinación de Infraestructura.",
+    "texto": "4.2. Está prohibido instalar software sin autorización de la Coordinación de Infraestructura."
+  },
+  {
+    "id": "POL-TIC-02#4.3",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "4.3",
+    "titulo_seccion": "Está prohibido almacenar información corporativa en servicios personales de nube.",
+    "texto": "4.3. Está prohibido almacenar información corporativa en servicios personales de nube."
+  },
+  {
+    "id": "POL-TIC-02#4.4",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "4.4",
+    "titulo_seccion": "El colaborador no debe modificar la configuración de seguridad ni deshabilitar el antivirus.",
+    "texto": "4.4. El colaborador no debe modificar la configuración de seguridad ni deshabilitar el antivirus."
+  },
+  {
+    "id": "POL-TIC-02#5",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "5",
+    "titulo_seccion": "Pérdida, hurto o daño",
+    "texto": "5. Pérdida, hurto o daño"
+  },
+  {
+    "id": "POL-TIC-02#5.1",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "5.1",
+    "titulo_seccion": "La novedad debe reportarse a la mesa de ayuda dentro de las veinticuatro (24) horas siguientes al hecho.",
+    "texto": "5.1. La novedad debe reportarse a la mesa de ayuda dentro de las veinticuatro (24) horas siguientes al hecho."
+  },
+  {
+    "id": "POL-TIC-02#5.2",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "5.2",
+    "titulo_seccion": "En caso de hurto se requiere denuncia ante la autoridad competente, radicada dentro de los tres (3) días",
+    "texto": "5.2. En caso de hurto se requiere denuncia ante la autoridad competente, radicada dentro de los tres (3) días\nhábiles siguientes."
+  },
+  {
+    "id": "POL-TIC-02#5.3",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "5.3",
+    "titulo_seccion": "El efecto económico se establece según las circunstancias y el concepto del comité de activos. El daño por",
+    "texto": "5.3. El efecto económico se establece según las circunstancias y el concepto del comité de activos. El daño por\nuso normal no genera cobro al colaborador."
+  },
+  {
+    "id": "POL-TIC-02#5.4",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "5.4",
+    "titulo_seccion": "El daño derivado de negligencia comprobada puede generar responsabilidad económica hasta por el valor",
+    "texto": "5.4. El daño derivado de negligencia comprobada puede generar responsabilidad económica hasta por el valor\nen libros del activo."
+  },
+  {
+    "id": "POL-TIC-02#6",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "6",
+    "titulo_seccion": "Reposición",
+    "texto": "6. Reposición\nLos equipos de cómputo se renuevan cada cuatro (4) años o antes si el diagnóstico técnico determina que no\nsoportan las herramientas requeridas por el cargo. La reposición por falla se atiende con equipo de préstamo\nmientras se resuelve el caso."
+  },
+  {
+    "id": "POL-TIC-02#7",
+    "documento": "POL-TIC-02_Activos_Tecnologicos.pdf",
+    "codigo_politica": "POL-TIC-02",
+    "seccion": "7",
+    "titulo_seccion": "Devolución",
+    "texto": "7. Devolución\nLa devolución debe hacerse el último día laborado, mediante acta de devolución con verificación del estado del\nactivo. La Coordinación de Infraestructura realiza el borrado seguro de la información antes de reasignar el equipo.\nDocumento sintético elaborado exclusivamente como material de la Prueba Técnica de Nivelación de perfiles IA. No constituye\npolítica vigente de la compañía."
+  },
+  {
+    "id": "POL-TIC-03#1",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "1",
+    "titulo_seccion": "Objeto",
+    "texto": "1. Objeto\nDefinir el ciclo de vida de los accesos a los sistemas de información de la compañía, bajo los principios de mínimo\nprivilegio y necesidad de conocer."
+  },
+  {
+    "id": "POL-TIC-03#2",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "2",
+    "titulo_seccion": "Solicitud de acceso",
+    "texto": "2. Solicitud de acceso"
+  },
+  {
+    "id": "POL-TIC-03#2.1",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "2.1",
+    "titulo_seccion": "Todo acceso se solicita a través de la mesa de ayuda y requiere aprobación del jefe inmediato y del dueño",
+    "texto": "2.1. Todo acceso se solicita a través de la mesa de ayuda y requiere aprobación del jefe inmediato y del dueño\nfuncional del sistema."
+  },
+  {
+    "id": "POL-TIC-03#2.2",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "2.2",
+    "titulo_seccion": "Los accesos se otorgan por rol, nunca por usuario individual. La creación de un rol nuevo requiere",
+    "texto": "2.2. Los accesos se otorgan por rol, nunca por usuario individual. La creación de un rol nuevo requiere\naprobación de la Coordinación de Aplicaciones."
+  },
+  {
+    "id": "POL-TIC-03#2.3",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "2.3",
+    "titulo_seccion": "El tiempo máximo de atención de una solicitud de acceso es de tres (3) días hábiles.",
+    "texto": "2.3. El tiempo máximo de atención de una solicitud de acceso es de tres (3) días hábiles."
+  },
+  {
+    "id": "POL-TIC-03#3",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "3",
+    "titulo_seccion": "Contraseñas",
+    "texto": "3. Contraseñas\nRequisito Regla\nLongitud mínima 12 caracteres\nComposición Mayúsculas, minúsculas, números y al menos un carácter especial\nVigencia 90 días para usuarios; 60 días para cuentas con privilegios elevados\nHistorial No se permite repetir ninguna de las últimas cinco (5) contraseñas\nBloqueo Cinco (5) intentos fallidos consecutivos bloquean la cuenta por 30 minutos\nSegundo factor Obligatorio para accesos remotos, VPN y cuentas administrativas"
+  },
+  {
+    "id": "POL-TIC-03#4",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "4",
+    "titulo_seccion": "Desbloqueo y restablecimiento",
+    "texto": "4. Desbloqueo y restablecimiento"
+  },
+  {
+    "id": "POL-TIC-03#4.1",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "4.1",
+    "titulo_seccion": "El desbloqueo se solicita a la mesa de ayuda y requiere verificación de identidad del solicitante.",
+    "texto": "4.1. El desbloqueo se solicita a la mesa de ayuda y requiere verificación de identidad del solicitante."
+  },
+  {
+    "id": "POL-TIC-03#4.2",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "4.2",
+    "titulo_seccion": "La mesa de ayuda no restablece contraseñas por teléfono sin verificación previa por un segundo canal.",
+    "texto": "4.2. La mesa de ayuda no restablece contraseñas por teléfono sin verificación previa por un segundo canal."
+  },
+  {
+    "id": "POL-TIC-03#4.3",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "4.3",
+    "titulo_seccion": "El tiempo objetivo de atención de un desbloqueo es de dos (2) horas hábiles.",
+    "texto": "4.3. El tiempo objetivo de atención de un desbloqueo es de dos (2) horas hábiles."
+  },
+  {
+    "id": "POL-TIC-03#5",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "5",
+    "titulo_seccion": "Revocación",
+    "texto": "5. Revocación"
+  },
+  {
+    "id": "POL-TIC-03#5.1",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "5.1",
+    "titulo_seccion": "Talento Humano notifica todo retiro o traslado a la Coordinación de Infraestructura el mismo día en que se",
+    "texto": "5.1. Talento Humano notifica todo retiro o traslado a la Coordinación de Infraestructura el mismo día en que se\nproduce."
+  },
+  {
+    "id": "POL-TIC-03#5.2",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "5.2",
+    "titulo_seccion": "Los accesos se revocan a más tardar el último día laborado del colaborador.",
+    "texto": "5.2. Los accesos se revocan a más tardar el último día laborado del colaborador."
+  },
+  {
+    "id": "POL-TIC-03#5.3",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "5.3",
+    "titulo_seccion": "Un traslado de área implica revisión completa de los accesos vigentes; no se conservan los del cargo",
+    "texto": "5.3. Un traslado de área implica revisión completa de los accesos vigentes; no se conservan los del cargo\nanterior por defecto."
+  },
+  {
+    "id": "POL-TIC-03#6",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "6",
+    "titulo_seccion": "Revisión periódica",
+    "texto": "6. Revisión periódica\nLa Coordinación de Aplicaciones realiza una revisión semestral de los accesos otorgados en los sistemas críticos.\nLos accesos sin uso durante noventa (90) días consecutivos se suspenden previa notificación al jefe inmediato."
+  },
+  {
+    "id": "POL-TIC-03#7",
+    "documento": "POL-TIC-03_Gestion_de_Accesos.pdf",
+    "codigo_politica": "POL-TIC-03",
+    "seccion": "7",
+    "titulo_seccion": "Cuentas de servicio",
+    "texto": "7. Cuentas de servicio\nLas cuentas técnicas o de servicio deben tener responsable nominal asignado, credenciales almacenadas en el\ngestor corporativo de secretos y rotación anual como mínimo. Está prohibido incorporar credenciales en el código\nfuente o en archivos de configuración versionados.\nDocumento sintético elaborado exclusivamente como material de la Prueba Técnica de Nivelación de perfiles IA. No constituye\npolítica vigente de la compañía."
+  },
+  {
+    "id": "POL-TIC-05#1",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "1",
+    "titulo_seccion": "Objeto",
+    "texto": "1. Objeto\nEstablecer la clasificación, los tiempos de atención y el procedimiento de escalamiento de los incidentes y\nrequerimientos reportados a la mesa de ayuda del área de Tecnología."
+  },
+  {
+    "id": "POL-TIC-05#2",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "2",
+    "titulo_seccion": "Definiciones",
+    "texto": "2. Definiciones\n Incidente: interrupción no planificada de un servicio o reducción de su calidad.\n Requerimiento: solicitud de un servicio estándar previsto en el catálogo.\n Problema: causa subyacente de uno o varios incidentes recurrentes.\n Escalamiento: traslado del caso a un nivel de mayor especialización o autoridad."
+  },
+  {
+    "id": "POL-TIC-05#3",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "3",
+    "titulo_seccion": "Clasificación de prioridad",
+    "texto": "3. Clasificación de prioridad\nPrioridad Criterio Ejemplo\nCrítica Servicio esencial caído o afectación a toda una sedeCaída del sistema de facturación\nAlta Afectación a un proceso completo o a más de diez uMsóudauriloos de inventario sin respuesta\nMedia Afectación a un usuario con solución alterna disponEibrlreor intermitente al generar un reporte\nBaja Solicitud sin afectación operativa Instalación de software estándar"
+  },
+  {
+    "id": "POL-TIC-05#4",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "4",
+    "titulo_seccion": "Tiempos objetivo de atención",
+    "texto": "4. Tiempos objetivo de atención\nPrioridad Primera respuesta Solución objetivo Cumplimiento esperado\nCrítica 15 minutos 4 horas 95%\nAlta 1 hora 8 horas hábiles 90%\nMedia 4 horas hábiles 3 días hábiles 85%\nBaja 1 día hábil 5 días hábiles 80%"
+  },
+  {
+    "id": "POL-TIC-05#5",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "5",
+    "titulo_seccion": "Escalamiento",
+    "texto": "5. Escalamiento"
+  },
+  {
+    "id": "POL-TIC-05#5.1",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "5.1",
+    "titulo_seccion": "Un incidente crítico se escala a la Dirección de Tecnología de forma inmediata al ser registrado.",
+    "texto": "5.1. Un incidente crítico se escala a la Dirección de Tecnología de forma inmediata al ser registrado."
+  },
+  {
+    "id": "POL-TIC-05#5.2",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "5.2",
+    "titulo_seccion": "Un incidente que supera el cincuenta por ciento (50%) del tiempo objetivo de solución se escala al",
+    "texto": "5.2. Un incidente que supera el cincuenta por ciento (50%) del tiempo objetivo de solución se escala al\ncoordinador correspondiente."
+  },
+  {
+    "id": "POL-TIC-05#5.3",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "5.3",
+    "titulo_seccion": "Todo escalamiento debe quedar registrado en el historial del ticket con la hora y el motivo.",
+    "texto": "5.3. Todo escalamiento debe quedar registrado en el historial del ticket con la hora y el motivo."
+  },
+  {
+    "id": "POL-TIC-05#6",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "6",
+    "titulo_seccion": "Reapertura",
+    "texto": "6. Reapertura"
+  },
+  {
+    "id": "POL-TIC-05#6.1",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "6.1",
+    "titulo_seccion": "Un ticket cerrado puede reabrirse dentro de los cinco (5) días hábiles siguientes al cierre, si la novedad",
+    "texto": "6.1. Un ticket cerrado puede reabrirse dentro de los cinco (5) días hábiles siguientes al cierre, si la novedad\npersiste."
+  },
+  {
+    "id": "POL-TIC-05#6.2",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "6.2",
+    "titulo_seccion": "Pasado ese plazo debe registrarse un ticket nuevo con referencia al anterior.",
+    "texto": "6.2. Pasado ese plazo debe registrarse un ticket nuevo con referencia al anterior."
+  },
+  {
+    "id": "POL-TIC-05#6.3",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "6.3",
+    "titulo_seccion": "Un ticket con tres (3) o más reaperturas se convierte automáticamente en un registro de problema y se",
+    "texto": "6.3. Un ticket con tres (3) o más reaperturas se convierte automáticamente en un registro de problema y se\nasigna a análisis de causa raíz."
+  },
+  {
+    "id": "POL-TIC-05#7",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "7",
+    "titulo_seccion": "Cierre",
+    "texto": "7. Cierre\nEl cierre requiere confirmación del solicitante. Si no hay respuesta dentro de los dos (2) días hábiles siguientes a la\nnotificación de solución, el ticket se cierra automáticamente con la anotación correspondiente."
+  },
+  {
+    "id": "POL-TIC-05#8",
+    "documento": "POL-TIC-05_Gestion_de_Incidentes.pdf",
+    "codigo_politica": "POL-TIC-05",
+    "seccion": "8",
+    "titulo_seccion": "Indicadores",
+    "texto": "8. Indicadores\nLa Coordinación de Aplicaciones reporta mensualmente: volumen por categoría, cumplimiento de tiempos por\nprioridad, tasa de reapertura y tiempo promedio de solución. La tasa de reapertura objetivo es inferior al ocho por\nciento (8%).\nDocumento sintético elaborado exclusivamente como material de la Prueba Técnica de Nivelación de perfiles IA. No constituye\npolítica vigente de la compañía."
+  }
+]
