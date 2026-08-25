@@ -1,9 +1,10 @@
 import logging
 
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+from fastapi import Depends, FastAPI, HTTPException
+from pydantic import BaseModel, Field
 
 from rag_politicas.generation import generar_respuesta
+from rag_politicas.rate_limit import limitar_tasa
 from rag_politicas.retrieval import UMBRAL_SIMILITUD_MINIMA, buscar
 
 logger = logging.getLogger(__name__)
@@ -14,7 +15,7 @@ RESPUESTA_SIN_EVIDENCIA = "No tengo evidencia en las políticas para responder e
 
 
 class ConsultaRequest(BaseModel):
-    pregunta: str
+    pregunta: str = Field(min_length=1, max_length=500)
 
 
 class Fuente(BaseModel):
@@ -28,7 +29,7 @@ class ConsultaResponse(BaseModel):
     fuentes: list[Fuente]
 
 
-@app.post("/consulta", response_model=ConsultaResponse)
+@app.post("/consulta", response_model=ConsultaResponse, dependencies=[Depends(limitar_tasa)])
 def consultar(request: ConsultaRequest) -> ConsultaResponse:
     chunks = buscar(request.pregunta)
 
