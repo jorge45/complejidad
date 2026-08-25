@@ -2,7 +2,7 @@
 
 Servicio que ingiere los PDF de políticas internas de `materiales/politicas/`, los indexa por sección numerada y expone un endpoint HTTP que responde preguntas en lenguaje natural citando el documento y la sección de origen — o declara explícitamente que no hay evidencia en las políticas, sin inventar contenido.
 
-Implementado según [`specs/01-rag-politicas.md`](specs/01-rag-politicas.md).
+Implementado según [`specs/01-rag-politicas.md`](specs/01-rag-politicas.md) y [`specs/02-seguridad-e-instrumentacion-rag.md`](specs/02-seguridad-e-instrumentacion-rag.md) (auditoría de seguridad e instrumentación — ver [`docs/informe-seguridad.md`](docs/informe-seguridad.md)).
 
 ---
 
@@ -13,6 +13,8 @@ Implementado según [`specs/01-rag-politicas.md`](specs/01-rag-politicas.md).
 3. **Endpoint `POST /consulta`** (FastAPI): recibe una pregunta, recupera los 4 chunks más relevantes por similitud coseno y:
    - Si el mejor chunk no supera el umbral mínimo de similitud, responde que no hay evidencia en las políticas — **sin llamar al LLM**.
    - Si lo supera, llama a OpenAI (`gpt-4o-mini`) para redactar una respuesta que cite explícitamente el documento y la sección de origen.
+4. **Seguridad** (SPEC 02): la pregunta está validada en tamaño (1-500 caracteres, `422` si no cumple), delimitada explícitamente en el prompt del LLM (`<pregunta_usuario>...</pregunta_usuario>`) para mitigar prompt injection, y el endpoint tiene rate limiting en memoria (20 peticiones/minuto por IP, `429` con `Retry-After` al exceder). Detalle completo de los hallazgos y correcciones en [`docs/informe-seguridad.md`](docs/informe-seguridad.md).
+5. **Instrumentación** (SPEC 02): cada petición a `POST /consulta` genera una línea de log JSON en `stdout` con latencia y tokens consumidos, y `GET /metricas` expone un resumen agregado en memoria (peticiones totales, latencia promedio/p95, tokens totales/promedio) desde que arrancó el proceso.
 
 ## Qué NO hace
 
@@ -35,12 +37,16 @@ rag_politicas/
   pdf_parser.py            # extracción de texto con pdfplumber (limpia glifos "(cid:N)")
   chunking.py               # detección de secciones/subsecciones numeradas
   retrieval.py               # carga del índice, búsqueda top-k, score de similitud
-  generation.py                # prompt + llamada a OpenAI (gpt-4o-mini)
-  main.py                        # app FastAPI, POST /consulta
+  generation.py                # prompt + llamada a OpenAI (gpt-4o-mini), devuelve (texto, uso)
+  rate_limit.py                 # rate limiting en memoria (ventana deslizante, 20 req/min/IP)
+  metrics.py                     # registro de latencia/tokens por petición + resumen agregado
+  main.py                         # app FastAPI: POST /consulta, GET /metricas
   requirements.txt
   .env.example
 tests/
   casos_verificacion.py    # 5 preguntas (una por política) + 1 caso sin evidencia
+docs/
+  informe-seguridad.md     # hallazgos de seguridad, evidencia y correcciones aplicadas
 ```
 
 ---
@@ -125,7 +131,62 @@ curl -X POST localhost:8090/consulta \
 
 Si la llamada al LLM falla (sin red, sin cuota, etc.), el endpoint devuelve `502` con un mensaje controlado en vez de una excepción cruda.
 
-### 4. Correr los casos de verificación
+**Ejemplo de pregunta demasiado larga (validación de entrada):**
+
+```bash
+curl -i -X POST localhost:8090/consulta \
+  -H "Content-Type: application/json" \
+  -d "{\"pregunta\": \"$(python3 -c 'print("a"*600)')\"}"
+```
+
+```
+HTTP/1.1 422 Unprocessable Entity
+```
+
+La petición se rechaza por Pydantic antes de llegar a `retrieval.buscar` o `generation.generar_respuesta` — ninguna de las dos se invoca.
+
+**Ejemplo de rate limiting:** al superar 20 peticiones en un minuto desde la misma IP, la petición 21 devuelve:
+
+```
+HTTP/1.1 429 Too Many Requests
+Retry-After: 42
+```
+
+```json
+{ "detail": "Demasiadas peticiones. Intenta de nuevo más tarde." }
+```
+
+### 4. Consultar las métricas agregadas
+
+```bash
+curl localhost:8090/metricas
+```
+
+```json
+{
+  "peticiones_totales": 37,
+  "latencia_ms_promedio": 610.4,
+  "latencia_ms_p95": 1180.2,
+  "tokens_totales": 15230,
+  "tokens_promedio_por_peticion": 411.6
+}
+```
+
+Además, cada petición a `POST /consulta` (con o sin evidencia) escribe una línea JSON en `stdout` del proceso del servidor:
+
+```json
+{"evento": "consulta", "latencia_ms": 842.3, "tokens_prompt": 412, "tokens_completion": 87, "tokens_total": 499, "con_evidencia": true}
+```
+
+Cuando la pregunta no supera el umbral de similitud (no se llama al LLM), los campos de tokens quedan en `0`:
+
+```json
+{"evento": "consulta", "latencia_ms": 21.7, "tokens_prompt": 0, "tokens_completion": 0, "tokens_total": 0, "con_evidencia": false}
+```
+
+Tanto los logs como el resumen de `/metricas` viven solo en memoria del proceso: se reinician a cero cada vez que se reinicia el servidor (no hay persistencia en disco).
+
+### 5. Correr los casos de verificación
 
 Valida la capa de retrieval + umbral (5 preguntas, una por política, más 1 caso sin evidencia) sin necesidad de `OPENAI_API_KEY`:
 
@@ -144,6 +205,7 @@ Salida esperada: `6/6 casos pasaron.`
 - **Generación con OpenAI** (`gpt-4o-mini`) — es la única llamada externa del sistema.
 - **Umbral de similitud como mecanismo de "sin evidencia"**, evaluado antes de invocar al LLM: determinístico y barato. La constante `UMBRAL_SIMILITUD_MINIMA` vive en `rag_politicas/retrieval.py` y fue calibrada empíricamente con `tests/casos_verificacion.py` (actualmente `0.55`).
 - Al indexar, el texto de cada chunk se antepone con el título del documento y de la sección **solo para el embedding** (no para lo que se cita al usuario), porque subsecciones cortas (p. ej. "La solicitud debe radicarse con...") pierden contexto semántico si se embeben aisladas.
+- **Rate limiting y métricas en memoria, sin dependencias nuevas ni persistencia en disco** — consistente con el resto del servicio (sin estado externo salvo el índice FAISS local). Si se necesita compartir el límite o las métricas entre múltiples workers/procesos, es un cambio de infraestructura fuera del alcance de SPEC 02 (ver [`docs/informe-seguridad.md`](docs/informe-seguridad.md), limitación conocida del rate limiter).
 
 ## Limitación conocida
 
