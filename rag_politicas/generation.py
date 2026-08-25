@@ -40,7 +40,7 @@ def _construir_prompt_usuario(pregunta: str, chunks: list[dict]) -> str:
     )
 
 
-def generar_respuesta(pregunta: str, chunks: list[dict]) -> str:
+def generar_respuesta(pregunta: str, chunks: list[dict]) -> tuple[str, dict]:
     cliente = _obtener_cliente()
     respuesta = cliente.chat.completions.create(
         model=MODELO_GENERACION,
@@ -49,7 +49,12 @@ def generar_respuesta(pregunta: str, chunks: list[dict]) -> str:
             {"role": "user", "content": _construir_prompt_usuario(pregunta, chunks)},
         ],
     )
-    return respuesta.choices[0].message.content
+    uso = {
+        "tokens_prompt": respuesta.usage.prompt_tokens,
+        "tokens_completion": respuesta.usage.completion_tokens,
+        "tokens_total": respuesta.usage.total_tokens,
+    }
+    return respuesta.choices[0].message.content, uso
 
 
 if __name__ == "__main__":
@@ -57,4 +62,6 @@ if __name__ == "__main__":
 
     pregunta = "¿Con cuántos días de anticipación debo pedir vacaciones?"
     chunks = buscar(pregunta)
-    print(generar_respuesta(pregunta, chunks))
+    texto, uso = generar_respuesta(pregunta, chunks)
+    print(texto)
+    print(uso)
